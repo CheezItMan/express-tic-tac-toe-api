@@ -1,0 +1,24 @@
+{
+  "name": "express-tic-tac-toe-api",
+  "version": "1.0.0",
+  "description": "The Express API for Tic Tac Toe using Socket.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CheezItMan/express-tic-tac-toe-api.git"
+  },
+  "keywords": [
+    "socketio",
+    "node",
+    "express"
+  ],
+  "author": "Chris McAnally & Roshni Patel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CheezItMan/express-tic-tac-toe-api/issues"
+  },
+  "homepage": "https://github.com/CheezItMan/express-tic-tac-toe-api#readme"
+}

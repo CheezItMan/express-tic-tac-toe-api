@@ -4,7 +4,8 @@
   "description": "The Express API for Tic Tac Toe using Socket.io",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "nodemon ./src/server.js --exec babel-node -e js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,15 @@
   "bugs": {
     "url": "https://github.com/CheezItMan/express-tic-tac-toe-api/issues"
   },
-  "homepage": "https://github.com/CheezItMan/express-tic-tac-toe-api#readme"
+  "homepage": "https://github.com/CheezItMan/express-tic-tac-toe-api#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2025": "^0.0.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "express": "^4.17.2"
+  }
 }

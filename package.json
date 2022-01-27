@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "start": "nodemon ./src/server.js --exec babel-node -e js"
+    "start": "nodemon ./src/index.js --exec babel-node -e js"
   },
   "repository": {
     "type": "git",
@@ -16,6 +16,7 @@
     "node",
     "express"
   ],
+  "type": "module",
   "author": "Chris McAnally & Roshni Patel",
   "license": "MIT",
   "bugs": {
